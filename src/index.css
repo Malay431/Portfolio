@@ -1,0 +1,25 @@
+@import "tailwindcss";
+li{
+    cursor: pointer;
+}
+li:hover{
+    text-decoration:underline;
+    text-underline-offset: 5px;
+    text-decoration-color: lightblue;
+    color:#7bf1a8
+}
+
+.stars {
+  background: transparent url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+  animation: move-stars 2000s linear infinite;
+}
+
+
+@keyframes move-stars {
+  from { background-position: 0 0; }
+  to { background-position: -10000px 5000px; }
+}
+
+html {
+  scroll-behavior:smooth;
+}
