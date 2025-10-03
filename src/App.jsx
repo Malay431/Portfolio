@@ -5,7 +5,6 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import { Route, Routes } from "react-router-dom";
 import AllProject from "./components/AllProjects/AllProject";
-import { FaArrowUp } from "react-icons/fa";
 import Experience from "./components/Experience";
 
 const App = () => {

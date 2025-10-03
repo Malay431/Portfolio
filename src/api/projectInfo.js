@@ -35,4 +35,13 @@ export const projectInfo = [
     github: "https://github.com/Malay431/Realestate_lp",
     stack: ["React", "Tailwind CSS", "Framer Motion"],
   },
+  {
+    title: "Notes App",
+    description: `A Notes app with the feature : CURD Operation, Archieve, Important and BIN. 
+    App is created using React.js.
+    This Mini-Project was part of GeeksforGeeks Front-End Developement React Course.`,
+    image: "/note_app.png",
+    github: "https://github.com/Malay431/notes_app_react",
+    stack: ["React", "Tailwind CSS"],
+  },
 ];
