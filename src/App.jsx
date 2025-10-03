@@ -44,8 +44,8 @@ const App = () => {
           {/* Message */}
           <p className="text-gray-300 text-lg">
             This portfolio is optimized for desktop screens only. <br />
-            Please visit it on a larger device for the best experience. I am
-            working on making this responsive.
+            I am working on making this responsive.
+            Please visit it on a larger device for the best experience.
           </p>
         </div>
       </div>

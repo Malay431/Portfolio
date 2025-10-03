@@ -28,7 +28,7 @@ export const projectInfo = [
     stack: ["React", "Tailwind CSS", "Shadcn UI", "Supabase"],
   },
   {
-    title: "RealEstate Website",
+    title: "RealEstate Landing Webpage",
     description: `A Website made for Real-Estate Builder, Engineers or Agents to showcase there work on the Internet.
     This website can be considered as a Landing page for Customers by showcasing the Architecture developed. It contains user reviews, completed projects, etc`,
     image: "/realestate.png",
