@@ -4,7 +4,7 @@ import { FaCircle } from "react-icons/fa";
 const Navbar = () => {
   return (
     <nav className="flex w-full justify-center items-center">
-      <div className="fixed gap-2 left-4 top-6 flex text-xs">
+      <div className="fixed gap-2 left-4 top-6 flex text-xs z-50">
         Current Status:
         <span>Under development</span>
         <p className="text-red-700 animate-pulse [animation-duration:700ms] flex items-center">
