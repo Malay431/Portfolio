@@ -15,12 +15,12 @@ const Home = ({id}) => {
             <p className="text-sm text-green-400">{'<h1>'}</p>
             
             <Typewriter
-              words={['Malay Chitodkar','Frontend Developer','Backend Developer', 'MERN Stack Developer']}
+              words={['Malay Chitodkar','Frontend Developer','Backend Developer', 'MERN Stack Developer','Looking for Job Opportunities']}
               loop='true'
               cursor
               cursorStyle='|'
               typeSpeed={100}
-              deleteSpeed={70}
+              deleteSpeed={100}
               delaySpeed={1000}
             />
           <p className="text-sm text-green-400">{'<h1>'}</p>

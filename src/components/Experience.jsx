@@ -23,8 +23,8 @@ const experiences = [
 const Experience = () => {
     
   return (
-      <div className="flex flex-col">
-        <div className="text-3xl text-center mb-10">Experience</div>
+      <div className="flex flex-col mb-10">
+        <div className="text-5xl text-center mb-10">Experience</div>
         {experiences.map((items, index) => {
           const isLast = index === experiences.length - 1;
           const isFirst = index === 0;

@@ -3,11 +3,13 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiExpress, SiMongodb, SiMui, SiShadcnui } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { VscVscode } from "react-icons/vsc";
+import { TbFileTypeSql } from "react-icons/tb";
+
 
 
 const About = ({ id }) => {
   return (
-    <div id={id} className="flex flex-col w-full mb-30">
+    <div id={id} className="flex flex-col w-full mb-20">
       {/*About Section*/}
       <div className="flex justify-center items-center">
         <div>
@@ -38,9 +40,9 @@ const About = ({ id }) => {
       </div>
 
       {/* Technologies */}
-      <div className="m-3 mx-10 flex flex-col justify-center items-center">
-        <div className="text-3xl text-center">Technologies</div>
-        <div className="mt-6 flex w-full justify-center">
+      <div className="m-3 mt-10 flex flex-col justify-center items-center">
+        <div className="text-3xl text-center">My Tech Stack</div>
+        <div className="mt-3 flex w-full justify-center">
           <div className="p-4 rounded">
             <span className="underline underline-offset-2 text-xl"></span>
             <div className="flex flex-row gap-9">
@@ -87,6 +89,9 @@ const About = ({ id }) => {
               </div>
 
               <div className="my-5">
+                <p className="flex items-center gap-2 text-xl my-2">
+                  <TbFileTypeSql className="text-orange-400" /> SQL
+                </p>
                 <p className="flex items-center gap-2 text-xl my-2">
                   <SiMongodb className="text-green-400" /> MongoDB
                 </p>

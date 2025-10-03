@@ -11,7 +11,7 @@ const Projects = ({ id }) => {
         <h1 className="text-5xl m-5 underline underline-offset-8">PROJECTS</h1>
       </div>
 
-      <div className="flex flex-col p-10 w-full gap-7 items-center justify-center">
+      <div className="flex flex-col p-20 w-full gap-7 items-center justify-center">
         {projectInfo.slice(0,3).map((items, index) => {
           return (
             <div key={index} className="flex w-full p-1 border border-gray-50/20 rounded-2xl h-auto hover:scale-103  hover:shadow-[0_0_30px] shadow-purple-500 duration-500">
