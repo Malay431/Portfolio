@@ -42,11 +42,11 @@ const Home = ({id}) => {
         </div>
         <div className="flex gap-5 mt-4">
           <button
-            className={`border-2 rounded-2xl m-2 py-2 px-3 w-1/2 cursor-pointer hover:border-green-300 hover:shadow-2xl hover:shadow-green-500`}
+            className={`border-2 rounded-2xl m-2 py-2 px-3 w-1/2 cursor-pointer hover:border-green-300 hover:shadow-[-5px_2px_50px] hover:shadow-green-500`}
           >
             Hire Me
           </button>
-          <button className="border-2 rounded-xl m-2 py-2 px-3 w-1/2 cursor-pointer hover:border-blue-300 hover:shadow-2xl hover:shadow-blue-500">Resume</button>
+          <button className="border-2 rounded-xl m-2 py-2 px-3 w-1/2 cursor-pointer hover:border-blue-300 hover:shadow-[-5px_2px_50px] hover:shadow-blue-500">Resume</button>
         </div>
       </div>
 

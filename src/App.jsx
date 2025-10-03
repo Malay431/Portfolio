@@ -6,6 +6,8 @@ import Projects from "./components/Projects";
 import { Route, Routes } from "react-router-dom";
 import AllProject from "./components/AllProjects/AllProject";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -25,11 +27,13 @@ const App = () => {
                 <About id="about" />
                 <Experience/>
                 <Projects id="projects" />
+                <Contact id="contact"/>
               </>
             }
           />
           <Route path="/projects" element={<AllProject />} />
         </Routes>
+        <Footer/>
 
       </div>
       <div className="flex md:hidden items-center justify-center h-screen px-6 text-center">

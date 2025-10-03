@@ -1,26 +1,34 @@
 import React from "react";
 import { projectInfo } from "../../api/projectInfo";
-import { FaArrowAltCircleLeft, FaArrowLeft, FaExternalLinkAlt, FaLink } from "react-icons/fa";
+import {
+  FaArrowAltCircleLeft,
+  FaArrowLeft,
+  FaExternalLinkAlt,
+  FaLink,
+} from "react-icons/fa";
 
 const AllProject = () => {
   return (
     <div className="p-10">
-        <a
-          href="/"
-          className="flex items-center gap-3 w-fit ml-5 mb-2 md:ml-10 hover:translate-x-4 duration-700 border bg-black py-2 px-4 rounded-xl text-white hover:bg-white hover:text-black"
-        >
-          <FaArrowLeft/> Back Home
-        </a>
-    
+      <a
+        href="/"
+        className="flex items-center gap-3 w-fit ml-5 mb-2 md:ml-10 hover:translate-x-4 duration-700 border bg-black py-2 px-4 rounded-xl text-white hover:bg-white hover:text-black"
+      >
+        <FaArrowLeft /> Back Home
+      </a>
 
       <div className="hidden md:flex flex-col items-center justify-center">
         <span className="mb-5 text-3xl">My Github Calender</span>
-        <img
-          src="http://ghchart.rshah.org/Malay431"
-          alt="Malay431's Github chart"
-        />
+        <a href="https://github.com/Malay431" target="_blank">
+          <img
+            src="http://ghchart.rshah.org/Malay431"
+            alt="Malay431's Github chart"
+          />
+        </a>
       </div>
-      <p className="mt-10 text-center md:text-start text-3xl underline underline-offset-4">All Projects</p>
+      <p className="mt-10 text-center md:text-start text-3xl underline underline-offset-4">
+        All Projects
+      </p>
       <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-8 mt-10">
         {projectInfo.map((items, index) => {
           return (

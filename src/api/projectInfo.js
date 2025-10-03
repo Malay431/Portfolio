@@ -1,5 +1,6 @@
 export const projectInfo = [
   {
+    idd:'01',
     title: "Vecteno India - Graphical Asset Platform for Designers",
     description: `Web Application for Premium Digital Assets. Developed a premium stock image platform enabling users to browse, search, 
     and download graphical assets.Implemented secure payment workflows with coupon-based discounts, premium membership (Razorpay
@@ -18,6 +19,7 @@ export const projectInfo = [
     ],
   },
   {
+    idd:'02',
     title: "URL Shortner",
     description: `A tool used for shorting long links as well as have Links analytics,  
     Built a URL shortener that converts long links into shareable short links and QR codes.
@@ -28,6 +30,7 @@ export const projectInfo = [
     stack: ["React", "Tailwind CSS", "Shadcn UI", "Supabase"],
   },
   {
+    idd:'03',
     title: "RealEstate Landing Webpage",
     description: `A Website made for Real-Estate Builder, Engineers or Agents to showcase there work on the Internet.
     This website can be considered as a Landing page for Customers by showcasing the Architecture developed. It contains user reviews, completed projects, etc`,
@@ -36,6 +39,7 @@ export const projectInfo = [
     stack: ["React", "Tailwind CSS", "Framer Motion"],
   },
   {
+    idd:'04',
     title: "Notes App",
     description: `A Notes app with the feature : CURD Operation, Archieve, Important and BIN. 
     App is created using React.js.
