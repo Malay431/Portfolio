@@ -28,12 +28,12 @@ const App = () => {
                 <Experience/>
                 <Projects id="projects" />
                 <Contact id="contact"/>
+                <Footer/>
               </>
             }
           />
           <Route path="/projects" element={<AllProject />} />
         </Routes>
-        <Footer/>
 
       </div>
       <div className="flex md:hidden items-center justify-center h-screen px-6 text-center">

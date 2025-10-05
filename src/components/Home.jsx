@@ -23,7 +23,7 @@ const Home = ({id}) => {
               deleteSpeed={100}
               delaySpeed={1000}
             />
-          <p className="text-sm text-green-400">{'<h1>'}</p>
+          <p className="text-sm text-green-400">{'</h1>'}</p>
           </span>
         </div>
         <div className="w-full mb-20">
